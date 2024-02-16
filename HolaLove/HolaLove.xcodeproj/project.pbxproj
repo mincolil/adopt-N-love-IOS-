@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18451C902B4A4CF700503FEF /* MedicalReportDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18451C8F2B4A4CF700503FEF /* MedicalReportDetailViewController.swift */; };
+		18451C922B4A8A2200503FEF /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18451C912B4A8A2200503FEF /* RatingViewController.swift */; };
+		1870A1F62B4A93A00077327F /* DoctorRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870A1F52B4A93A00077327F /* DoctorRateModel.swift */; };
+		1870A1F82B4BE2710077327F /* UserRatesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870A1F72B4BE2710077327F /* UserRatesViewCell.swift */; };
+		18719C0A2B3C2139005A1832 /* ChatDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C092B3C2139005A1832 /* ChatDatabaseManager.swift */; };
+		18719C0C2B3C2146005A1832 /* ChatStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C0B2B3C2146005A1832 /* ChatStoreManager.swift */; };
+		18719C0E2B3C2316005A1832 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C0D2B3C2316005A1832 /* HomeViewController.swift */; };
+		18719C112B3C2680005A1832 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C102B3C2680005A1832 /* PetModel.swift */; };
+		18719C152B3C2A87005A1832 /* SortPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C142B3C2A87005A1832 /* SortPickerViewDelegate.swift */; };
+		18719C172B3C2AC9005A1832 /* GenderPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C162B3C2AC9005A1832 /* GenderPickerViewDelegate.swift */; };
+		18719C192B3C2AEC005A1832 /* PetTypePickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C182B3C2AEC005A1832 /* PetTypePickerViewDelegate.swift */; };
+		18719C1B2B3C2B6C005A1832 /* HalfRoundedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C1A2B3C2B6C005A1832 /* HalfRoundedUIView.swift */; };
+		18719C1D2B3C2B7E005A1832 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C1C2B3C2B7E005A1832 /* CardView.swift */; };
+		18719C1F2B3C3935005A1832 /* PetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18719C1E2B3C3935005A1832 /* PetCollectionViewCell.swift */; };
+		18A9480C2B3C04C8004BE4F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A9480B2B3C04C8004BE4F4 /* GoogleService-Info.plist */; };
+		18C063CD2B3AC1B300D2729A /* VerifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C063CC2B3AC1B300D2729A /* VerifyAPI.swift */; };
+		18C063CF2B3AE02600D2729A /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C063CE2B3AE02600D2729A /* Config.plist */; };
+		18C612CA2B2C9349008EF21E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C612C92B2C9349008EF21E /* AppDelegate.swift */; };
+		18C612CC2B2C9349008EF21E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C612CB2B2C9349008EF21E /* SceneDelegate.swift */; };
+		18C612CE2B2C9349008EF21E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C612CD2B2C9349008EF21E /* ViewController.swift */; };
+		18C612E52B2C9C89008EF21E /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C612E42B2C9C89008EF21E /* LoadingViewController.swift */; };
+		18C612E92B2C9D1D008EF21E /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C612E82B2C9D1D008EF21E /* Auth.storyboard */; };
+		18C612EB2B2C9E05008EF21E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C612EA2B2C9E05008EF21E /* RegisterViewController.swift */; };
+		18C612ED2B2C9ED3008EF21E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C612EC2B2C9ED3008EF21E /* LoginViewController.swift */; };
+		18C613002B2CA565008EF21E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 18C612FF2B2CA565008EF21E /* FirebaseAnalytics */; };
+		18C613022B2CA565008EF21E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 18C613012B2CA565008EF21E /* FirebaseAuth */; };
+		18C613042B2CA565008EF21E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 18C613032B2CA565008EF21E /* FirebaseDatabase */; };
+		18C613062B2CA565008EF21E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 18C613052B2CA565008EF21E /* FirebaseFirestore */; };
+		18C613082B2CA565008EF21E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 18C613072B2CA565008EF21E /* FirebaseFirestoreSwift */; };
+		18C6130A2B2CA565008EF21E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 18C613092B2CA565008EF21E /* FirebaseStorage */; };
+		18C6130C2B2CAC8D008EF21E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6130B2B2CAC8D008EF21E /* ForgotPasswordViewController.swift */; };
+		18C6130E2B2CACA5008EF21E /* FillInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6130D2B2CACA5008EF21E /* FillInfoViewController.swift */; };
+		18C613102B2CACC5008EF21E /* VerifyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6130F2B2CACC5008EF21E /* VerifyAccountViewController.swift */; };
+		18C613122B2CACE1008EF21E /* EnterNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C613112B2CACE1008EF21E /* EnterNewPasswordViewController.swift */; };
+		18C613152B2D3B77008EF21E /* Introduction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C613142B2D3B77008EF21E /* Introduction.storyboard */; };
+		18C613192B2D3ED9008EF21E /* LandingPage1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C613182B2D3ED9008EF21E /* LandingPage1VC.swift */; };
+		18C6131B2B2D3EE8008EF21E /* LandingPage2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6131A2B2D3EE8008EF21E /* LandingPage2VC.swift */; };
+		18C6131E2B2D3EFE008EF21E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6131D2B2D3EFE008EF21E /* WelcomeVC.swift */; };
+		18C613202B2D405F008EF21E /* IntroductionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6131F2B2D405F008EF21E /* IntroductionDelegate.swift */; };
+		18C613222B2D41C4008EF21E /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C613212B2D41C4008EF21E /* IntroductionViewController.swift */; };
+		18C613252B2D49D3008EF21E /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C613242B2D49D3008EF21E /* Core.swift */; };
+		18C613282B2D6AFE008EF21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C613272B2D6AFE008EF21E /* LaunchScreen.storyboard */; };
+		18C6132B2B2D71C4008EF21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C612D22B2C934B008EF21E /* Assets.xcassets */; };
+		18C6132D2B305662008EF21E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6132C2B305662008EF21E /* Model.swift */; };
+		18C70D9D2B445676006C84AD /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70D9C2B445676006C84AD /* UserViewController.swift */; };
+		18C70D9F2B445879006C84AD /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70D9E2B445879006C84AD /* MyProfileViewController.swift */; };
+		18C70DA12B445901006C84AD /* UserPetCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DA02B445901006C84AD /* UserPetCollectionView.swift */; };
+		18C70DA32B4461B8006C84AD /* UpdateMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DA22B4461B8006C84AD /* UpdateMyProfileViewController.swift */; };
+		18C70DA52B446BD7006C84AD /* OtherUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DA42B446BD7006C84AD /* OtherUserProfileViewController.swift */; };
+		18C70DA72B44EDEB006C84AD /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DA62B44EDEB006C84AD /* AppInfoViewController.swift */; };
+		18C70DA92B44F119006C84AD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DA82B44F119006C84AD /* SearchViewController.swift */; };
+		18C70DAB2B44F1DA006C84AD /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DAA2B44F1DA006C84AD /* HistoryTableViewCell.swift */; };
+		18C70DAD2B44F280006C84AD /* RecentPetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DAC2B44F280006C84AD /* RecentPetDelegate.swift */; };
+		18C70DAF2B44F2C5006C84AD /* RecentPetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DAE2B44F2C5006C84AD /* RecentPetCollectionViewCell.swift */; };
+		18C70DB12B451602006C84AD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DB02B451602006C84AD /* SettingViewController.swift */; };
+		18C70DB32B451BC0006C84AD /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DB22B451BC0006C84AD /* ChangePasswordViewController.swift */; };
+		18C70DB52B455421006C84AD /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DB42B455421006C84AD /* ChatModel.swift */; };
+		18C70DB72B455447006C84AD /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DB62B455447006C84AD /* HistoryModel.swift */; };
+		18C70DB92B455489006C84AD /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DB82B455489006C84AD /* ConversationModel.swift */; };
+		18C70DBB2B455545006C84AD /* ChatFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DBA2B455545006C84AD /* ChatFrameViewController.swift */; };
+		18C70DBD2B4556A4006C84AD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DBC2B4556A4006C84AD /* ChatViewController.swift */; };
+		18C70DBF2B4557FC006C84AD /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DBE2B4557FC006C84AD /* ChatDetailViewController.swift */; };
+		18C70DC12B4558A6006C84AD /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DC02B4558A6006C84AD /* LocationPickerViewController.swift */; };
+		18C70DC32B4558E4006C84AD /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DC22B4558E4006C84AD /* PhotoViewerViewController.swift */; };
+		18C70DC52B455A07006C84AD /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C70DC42B455A07006C84AD /* ChatTableViewCell.swift */; };
+		18E34D362B4850B00054F19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E34D352B4850AF0054F19F /* Main.storyboard */; };
+		18E34D3A2B4902E20054F19F /* MedicalReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E34D392B4902E20054F19F /* MedicalReportViewController.swift */; };
+		18E34D3C2B4905A30054F19F /* CreateMedicalReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E34D3B2B4905A30054F19F /* CreateMedicalReportViewController.swift */; };
+		18E34D3E2B490B1A0054F19F /* MedicalReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E34D3D2B490B1A0054F19F /* MedicalReportModel.swift */; };
+		18E34D402B4966F40054F19F /* MedicalReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E34D3F2B4966F40054F19F /* MedicalReportCell.swift */; };
+		18E34D422B49855D0054F19F /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E34D412B49855D0054F19F /* DoctorProfileViewController.swift */; };
+		18E34D442B4985AB0054F19F /* ConfirmMedicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E34D432B4985AB0054F19F /* ConfirmMedicalViewController.swift */; };
+		18EEB3F62B3D263200EB0F9C /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB3F52B3D263200EB0F9C /* AddPetViewController.swift */; };
+		18EEB3F82B3D854B00EB0F9C /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB3F72B3D854B00EB0F9C /* PetDetailViewController.swift */; };
+		E6960DF48C1E4EDBB91621B6 /* Pods_HolaLove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7919A5B72A76616CD51FDD27 /* Pods_HolaLove.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17FA56E720638FD4D87851F0 /* Pods-HolaLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolaLove.debug.xcconfig"; path = "Target Support Files/Pods-HolaLove/Pods-HolaLove.debug.xcconfig"; sourceTree = "<group>"; };
+		18451C8F2B4A4CF700503FEF /* MedicalReportDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReportDetailViewController.swift; sourceTree = "<group>"; };
+		18451C912B4A8A2200503FEF /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		1870A1F52B4A93A00077327F /* DoctorRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorRateModel.swift; sourceTree = "<group>"; };
+		1870A1F72B4BE2710077327F /* UserRatesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRatesViewCell.swift; sourceTree = "<group>"; };
+		18719C092B3C2139005A1832 /* ChatDatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDatabaseManager.swift; sourceTree = "<group>"; };
+		18719C0B2B3C2146005A1832 /* ChatStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatStoreManager.swift; sourceTree = "<group>"; };
+		18719C0D2B3C2316005A1832 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18719C102B3C2680005A1832 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		18719C142B3C2A87005A1832 /* SortPickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPickerViewDelegate.swift; sourceTree = "<group>"; };
+		18719C162B3C2AC9005A1832 /* GenderPickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPickerViewDelegate.swift; sourceTree = "<group>"; };
+		18719C182B3C2AEC005A1832 /* PetTypePickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTypePickerViewDelegate.swift; sourceTree = "<group>"; };
+		18719C1A2B3C2B6C005A1832 /* HalfRoundedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfRoundedUIView.swift; sourceTree = "<group>"; };
+		18719C1C2B3C2B7E005A1832 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		18719C1E2B3C3935005A1832 /* PetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCollectionViewCell.swift; sourceTree = "<group>"; };
+		18A9480B2B3C04C8004BE4F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18C063CB2B3A8E3000D2729A /* HolaLove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HolaLove.entitlements; sourceTree = "<group>"; };
+		18C063CC2B3AC1B300D2729A /* VerifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAPI.swift; sourceTree = "<group>"; };
+		18C063CE2B3AE02600D2729A /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		18C612C62B2C9349008EF21E /* HolaLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C612C92B2C9349008EF21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C612CB2B2C9349008EF21E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18C612CD2B2C9349008EF21E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C612D22B2C934B008EF21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C612D72B2C934B008EF21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C612E42B2C9C89008EF21E /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		18C612E82B2C9D1D008EF21E /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		18C612EA2B2C9E05008EF21E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		18C612EC2B2C9ED3008EF21E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18C6130B2B2CAC8D008EF21E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		18C6130D2B2CACA5008EF21E /* FillInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillInfoViewController.swift; sourceTree = "<group>"; };
+		18C6130F2B2CACC5008EF21E /* VerifyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAccountViewController.swift; sourceTree = "<group>"; };
+		18C613112B2CACE1008EF21E /* EnterNewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNewPasswordViewController.swift; sourceTree = "<group>"; };
+		18C613142B2D3B77008EF21E /* Introduction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Introduction.storyboard; sourceTree = "<group>"; };
+		18C613182B2D3ED9008EF21E /* LandingPage1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage1VC.swift; sourceTree = "<group>"; };
+		18C6131A2B2D3EE8008EF21E /* LandingPage2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage2VC.swift; sourceTree = "<group>"; };
+		18C6131D2B2D3EFE008EF21E /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		18C6131F2B2D405F008EF21E /* IntroductionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionDelegate.swift; sourceTree = "<group>"; };
+		18C613212B2D41C4008EF21E /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		18C613242B2D49D3008EF21E /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		18C613272B2D6AFE008EF21E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C6132C2B305662008EF21E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		18C70D9C2B445676006C84AD /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		18C70D9E2B445879006C84AD /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		18C70DA02B445901006C84AD /* UserPetCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPetCollectionView.swift; sourceTree = "<group>"; };
+		18C70DA22B4461B8006C84AD /* UpdateMyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateMyProfileViewController.swift; sourceTree = "<group>"; };
+		18C70DA42B446BD7006C84AD /* OtherUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUserProfileViewController.swift; sourceTree = "<group>"; };
+		18C70DA62B44EDEB006C84AD /* AppInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
+		18C70DA82B44F119006C84AD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		18C70DAA2B44F1DA006C84AD /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		18C70DAC2B44F280006C84AD /* RecentPetDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentPetDelegate.swift; sourceTree = "<group>"; };
+		18C70DAE2B44F2C5006C84AD /* RecentPetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentPetCollectionViewCell.swift; sourceTree = "<group>"; };
+		18C70DB02B451602006C84AD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		18C70DB22B451BC0006C84AD /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		18C70DB42B455421006C84AD /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		18C70DB62B455447006C84AD /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		18C70DB82B455489006C84AD /* ConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
+		18C70DBA2B455545006C84AD /* ChatFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFrameViewController.swift; sourceTree = "<group>"; };
+		18C70DBC2B4556A4006C84AD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		18C70DBE2B4557FC006C84AD /* ChatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
+		18C70DC02B4558A6006C84AD /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
+		18C70DC22B4558E4006C84AD /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		18C70DC42B455A07006C84AD /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		18E34D352B4850AF0054F19F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18E34D392B4902E20054F19F /* MedicalReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReportViewController.swift; sourceTree = "<group>"; };
+		18E34D3B2B4905A30054F19F /* CreateMedicalReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMedicalReportViewController.swift; sourceTree = "<group>"; };
+		18E34D3D2B490B1A0054F19F /* MedicalReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReportModel.swift; sourceTree = "<group>"; };
+		18E34D3F2B4966F40054F19F /* MedicalReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReportCell.swift; sourceTree = "<group>"; };
+		18E34D412B49855D0054F19F /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		18E34D432B4985AB0054F19F /* ConfirmMedicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmMedicalViewController.swift; sourceTree = "<group>"; };
+		18EEB3F52B3D263200EB0F9C /* AddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
+		18EEB3F72B3D854B00EB0F9C /* PetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
+		5A0DDCE8DEFBD0C1D33A99DB /* Pods-HolaLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolaLove.release.xcconfig"; path = "Target Support Files/Pods-HolaLove/Pods-HolaLove.release.xcconfig"; sourceTree = "<group>"; };
+		7919A5B72A76616CD51FDD27 /* Pods_HolaLove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolaLove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C612C32B2C9349008EF21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C613082B2CA565008EF21E /* FirebaseFirestoreSwift in Frameworks */,
+				18C613042B2CA565008EF21E /* FirebaseDatabase in Frameworks */,
+				18C613062B2CA565008EF21E /* FirebaseFirestore in Frameworks */,
+				18C613002B2CA565008EF21E /* FirebaseAnalytics in Frameworks */,
+				18C613022B2CA565008EF21E /* FirebaseAuth in Frameworks */,
+				18C6130A2B2CA565008EF21E /* FirebaseStorage in Frameworks */,
+				E6960DF48C1E4EDBB91621B6 /* Pods_HolaLove.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18719C0F2B3C2670005A1832 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18719C102B3C2680005A1832 /* PetModel.swift */,
+				18C70DB42B455421006C84AD /* ChatModel.swift */,
+				18C70DB62B455447006C84AD /* HistoryModel.swift */,
+				18C70DB82B455489006C84AD /* ConversationModel.swift */,
+				18E34D3D2B490B1A0054F19F /* MedicalReportModel.swift */,
+				1870A1F52B4A93A00077327F /* DoctorRateModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18719C122B3C29CA005A1832 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				18719C142B3C2A87005A1832 /* SortPickerViewDelegate.swift */,
+				18719C162B3C2AC9005A1832 /* GenderPickerViewDelegate.swift */,
+				18719C182B3C2AEC005A1832 /* PetTypePickerViewDelegate.swift */,
+				18C70DAC2B44F280006C84AD /* RecentPetDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		18719C132B3C29E3005A1832 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18719C1E2B3C3935005A1832 /* PetCollectionViewCell.swift */,
+				18C70DA02B445901006C84AD /* UserPetCollectionView.swift */,
+				18C70DAA2B44F1DA006C84AD /* HistoryTableViewCell.swift */,
+				18C70DAE2B44F2C5006C84AD /* RecentPetCollectionViewCell.swift */,
+				18C70DC42B455A07006C84AD /* ChatTableViewCell.swift */,
+				18E34D3F2B4966F40054F19F /* MedicalReportCell.swift */,
+				1870A1F72B4BE2710077327F /* UserRatesViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C612BD2B2C9349008EF21E = {
+			isa = PBXGroup;
+			children = (
+				18C612C82B2C9349008EF21E /* HolaLove */,
+				18C612C72B2C9349008EF21E /* Products */,
+				F051E72CC2D256B6861D7BCC /* Pods */,
+				44DE195432155A55F957C5D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C612C72B2C9349008EF21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C612C62B2C9349008EF21E /* HolaLove.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C612C82B2C9349008EF21E /* HolaLove */ = {
+			isa = PBXGroup;
+			children = (
+				18C063CB2B3A8E3000D2729A /* HolaLove.entitlements */,
+				18C612DD2B2C935F008EF21E /* Components */,
+				18C613232B2D49B9008EF21E /* Core */,
+				18C612C92B2C9349008EF21E /* AppDelegate.swift */,
+				18C612CB2B2C9349008EF21E /* SceneDelegate.swift */,
+				18C613272B2D6AFE008EF21E /* LaunchScreen.storyboard */,
+				18C612D22B2C934B008EF21E /* Assets.xcassets */,
+				18A9480B2B3C04C8004BE4F4 /* GoogleService-Info.plist */,
+				18C612D72B2C934B008EF21E /* Info.plist */,
+				18C063CE2B3AE02600D2729A /* Config.plist */,
+			);
+			path = HolaLove;
+			sourceTree = "<group>";
+		};
+		18C612DD2B2C935F008EF21E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				18C612E12B2C9924008EF21E /* Delegate */,
+				18C612E02B2C991A008EF21E /* Introdutions */,
+				18C612DF2B2C9915008EF21E /* Users */,
+				18C612DE2B2C9397008EF21E /* Main */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		18C612DE2B2C9397008EF21E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18719C132B3C29E3005A1832 /* View */,
+				18719C122B3C29CA005A1832 /* Delegate */,
+				18719C0F2B3C2670005A1832 /* Models */,
+				18C6132E2B30B784008EF21E /* Resources */,
+				18E34D352B4850AF0054F19F /* Main.storyboard */,
+				18E34D412B49855D0054F19F /* DoctorProfileViewController.swift */,
+				18C612CD2B2C9349008EF21E /* ViewController.swift */,
+				18C612E42B2C9C89008EF21E /* LoadingViewController.swift */,
+				18719C0D2B3C2316005A1832 /* HomeViewController.swift */,
+				18EEB3F52B3D263200EB0F9C /* AddPetViewController.swift */,
+				18EEB3F72B3D854B00EB0F9C /* PetDetailViewController.swift */,
+				18C70D9C2B445676006C84AD /* UserViewController.swift */,
+				18C70D9E2B445879006C84AD /* MyProfileViewController.swift */,
+				18C70DA22B4461B8006C84AD /* UpdateMyProfileViewController.swift */,
+				18C70DA42B446BD7006C84AD /* OtherUserProfileViewController.swift */,
+				18C70DA62B44EDEB006C84AD /* AppInfoViewController.swift */,
+				18C70DA82B44F119006C84AD /* SearchViewController.swift */,
+				18C70DB02B451602006C84AD /* SettingViewController.swift */,
+				18C70DB22B451BC0006C84AD /* ChangePasswordViewController.swift */,
+				18C70DBA2B455545006C84AD /* ChatFrameViewController.swift */,
+				18C70DBC2B4556A4006C84AD /* ChatViewController.swift */,
+				18C70DBE2B4557FC006C84AD /* ChatDetailViewController.swift */,
+				18C70DC02B4558A6006C84AD /* LocationPickerViewController.swift */,
+				18C70DC22B4558E4006C84AD /* PhotoViewerViewController.swift */,
+				18E34D392B4902E20054F19F /* MedicalReportViewController.swift */,
+				18E34D3B2B4905A30054F19F /* CreateMedicalReportViewController.swift */,
+				18E34D432B4985AB0054F19F /* ConfirmMedicalViewController.swift */,
+				18451C8F2B4A4CF700503FEF /* MedicalReportDetailViewController.swift */,
+				18451C912B4A8A2200503FEF /* RatingViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18C612DF2B2C9915008EF21E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				18C612E62B2C9D01008EF21E /* API */,
+				18C612E82B2C9D1D008EF21E /* Auth.storyboard */,
+				18C612EA2B2C9E05008EF21E /* RegisterViewController.swift */,
+				18C612EC2B2C9ED3008EF21E /* LoginViewController.swift */,
+				18C6130B2B2CAC8D008EF21E /* ForgotPasswordViewController.swift */,
+				18C6130D2B2CACA5008EF21E /* FillInfoViewController.swift */,
+				18C6130F2B2CACC5008EF21E /* VerifyAccountViewController.swift */,
+				18C613112B2CACE1008EF21E /* EnterNewPasswordViewController.swift */,
+				18C6132C2B305662008EF21E /* Model.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		18C612E02B2C991A008EF21E /* Introdutions */ = {
+			isa = PBXGroup;
+			children = (
+				18C613132B2D3B64008EF21E /* Delegate */,
+				18C613142B2D3B77008EF21E /* Introduction.storyboard */,
+				18C613182B2D3ED9008EF21E /* LandingPage1VC.swift */,
+				18C6131A2B2D3EE8008EF21E /* LandingPage2VC.swift */,
+				18C6131D2B2D3EFE008EF21E /* WelcomeVC.swift */,
+				18C613212B2D41C4008EF21E /* IntroductionViewController.swift */,
+			);
+			path = Introdutions;
+			sourceTree = "<group>";
+		};
+		18C612E12B2C9924008EF21E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		18C612E62B2C9D01008EF21E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				18C063CC2B3AC1B300D2729A /* VerifyAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		18C613132B2D3B64008EF21E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				18C6131F2B2D405F008EF21E /* IntroductionDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		18C613232B2D49B9008EF21E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18C613262B2D49D9008EF21E /* Views */,
+				18C613242B2D49D3008EF21E /* Core.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18C613262B2D49D9008EF21E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18719C1A2B3C2B6C005A1832 /* HalfRoundedUIView.swift */,
+				18719C1C2B3C2B7E005A1832 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18C6132E2B30B784008EF21E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18719C092B3C2139005A1832 /* ChatDatabaseManager.swift */,
+				18719C0B2B3C2146005A1832 /* ChatStoreManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44DE195432155A55F957C5D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7919A5B72A76616CD51FDD27 /* Pods_HolaLove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F051E72CC2D256B6861D7BCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17FA56E720638FD4D87851F0 /* Pods-HolaLove.debug.xcconfig */,
+				5A0DDCE8DEFBD0C1D33A99DB /* Pods-HolaLove.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C612C52B2C9349008EF21E /* HolaLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C612DA2B2C934B008EF21E /* Build configuration list for PBXNativeTarget "HolaLove" */;
+			buildPhases = (
+				B32BDAC27E2104F1223C9DBF /* [CP] Check Pods Manifest.lock */,
+				18C612C22B2C9349008EF21E /* Sources */,
+				18C612C32B2C9349008EF21E /* Frameworks */,
+				18C612C42B2C9349008EF21E /* Resources */,
+				C7655BD4A3B5773D800ADD50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaLove;
+			packageProductDependencies = (
+				18C612FF2B2CA565008EF21E /* FirebaseAnalytics */,
+				18C613012B2CA565008EF21E /* FirebaseAuth */,
+				18C613032B2CA565008EF21E /* FirebaseDatabase */,
+				18C613052B2CA565008EF21E /* FirebaseFirestore */,
+				18C613072B2CA565008EF21E /* FirebaseFirestoreSwift */,
+				18C613092B2CA565008EF21E /* FirebaseStorage */,
+			);
+			productName = HolaLove;
+			productReference = 18C612C62B2C9349008EF21E /* HolaLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C612BE2B2C9349008EF21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18C612C52B2C9349008EF21E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 18C612C12B2C9349008EF21E /* Build configuration list for PBXProject "HolaLove" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C612BD2B2C9349008EF21E;
+			packageReferences = (
+				18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 18C612C72B2C9349008EF21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C612C52B2C9349008EF21E /* HolaLove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C612C42B2C9349008EF21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E34D362B4850B00054F19F /* Main.storyboard in Resources */,
+				18C612E92B2C9D1D008EF21E /* Auth.storyboard in Resources */,
+				18C613282B2D6AFE008EF21E /* LaunchScreen.storyboard in Resources */,
+				18C613152B2D3B77008EF21E /* Introduction.storyboard in Resources */,
+				18C6132B2B2D71C4008EF21E /* Assets.xcassets in Resources */,
+				18C063CF2B3AE02600D2729A /* Config.plist in Resources */,
+				18A9480C2B3C04C8004BE4F4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B32BDAC27E2104F1223C9DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolaLove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7655BD4A3B5773D800ADD50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolaLove/Pods-HolaLove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolaLove/Pods-HolaLove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HolaLove/Pods-HolaLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C612C22B2C9349008EF21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C612ED2B2C9ED3008EF21E /* LoginViewController.swift in Sources */,
+				18E34D3E2B490B1A0054F19F /* MedicalReportModel.swift in Sources */,
+				18719C1D2B3C2B7E005A1832 /* CardView.swift in Sources */,
+				1870A1F82B4BE2710077327F /* UserRatesViewCell.swift in Sources */,
+				18719C0C2B3C2146005A1832 /* ChatStoreManager.swift in Sources */,
+				18EEB3F82B3D854B00EB0F9C /* PetDetailViewController.swift in Sources */,
+				18719C172B3C2AC9005A1832 /* GenderPickerViewDelegate.swift in Sources */,
+				18C613222B2D41C4008EF21E /* IntroductionViewController.swift in Sources */,
+				18719C112B3C2680005A1832 /* PetModel.swift in Sources */,
+				1870A1F62B4A93A00077327F /* DoctorRateModel.swift in Sources */,
+				18C6130E2B2CACA5008EF21E /* FillInfoViewController.swift in Sources */,
+				18C6130C2B2CAC8D008EF21E /* ForgotPasswordViewController.swift in Sources */,
+				18E34D422B49855D0054F19F /* DoctorProfileViewController.swift in Sources */,
+				18719C0E2B3C2316005A1832 /* HomeViewController.swift in Sources */,
+				18C612CE2B2C9349008EF21E /* ViewController.swift in Sources */,
+				18C70DBF2B4557FC006C84AD /* ChatDetailViewController.swift in Sources */,
+				18C70DC52B455A07006C84AD /* ChatTableViewCell.swift in Sources */,
+				18C70DBD2B4556A4006C84AD /* ChatViewController.swift in Sources */,
+				18C70DA52B446BD7006C84AD /* OtherUserProfileViewController.swift in Sources */,
+				18719C192B3C2AEC005A1832 /* PetTypePickerViewDelegate.swift in Sources */,
+				18C70DC12B4558A6006C84AD /* LocationPickerViewController.swift in Sources */,
+				18C612EB2B2C9E05008EF21E /* RegisterViewController.swift in Sources */,
+				18C6131E2B2D3EFE008EF21E /* WelcomeVC.swift in Sources */,
+				18C70D9F2B445879006C84AD /* MyProfileViewController.swift in Sources */,
+				18C70DB92B455489006C84AD /* ConversationModel.swift in Sources */,
+				18C6131B2B2D3EE8008EF21E /* LandingPage2VC.swift in Sources */,
+				18C70D9D2B445676006C84AD /* UserViewController.swift in Sources */,
+				18C613122B2CACE1008EF21E /* EnterNewPasswordViewController.swift in Sources */,
+				18451C902B4A4CF700503FEF /* MedicalReportDetailViewController.swift in Sources */,
+				18719C0A2B3C2139005A1832 /* ChatDatabaseManager.swift in Sources */,
+				18E34D3C2B4905A30054F19F /* CreateMedicalReportViewController.swift in Sources */,
+				18C613202B2D405F008EF21E /* IntroductionDelegate.swift in Sources */,
+				18C70DA12B445901006C84AD /* UserPetCollectionView.swift in Sources */,
+				18C6132D2B305662008EF21E /* Model.swift in Sources */,
+				18C70DC32B4558E4006C84AD /* PhotoViewerViewController.swift in Sources */,
+				18719C1B2B3C2B6C005A1832 /* HalfRoundedUIView.swift in Sources */,
+				18E34D442B4985AB0054F19F /* ConfirmMedicalViewController.swift in Sources */,
+				18451C922B4A8A2200503FEF /* RatingViewController.swift in Sources */,
+				18C613192B2D3ED9008EF21E /* LandingPage1VC.swift in Sources */,
+				18C613102B2CACC5008EF21E /* VerifyAccountViewController.swift in Sources */,
+				18C70DA92B44F119006C84AD /* SearchViewController.swift in Sources */,
+				18C70DB32B451BC0006C84AD /* ChangePasswordViewController.swift in Sources */,
+				18C70DA32B4461B8006C84AD /* UpdateMyProfileViewController.swift in Sources */,
+				18C612CA2B2C9349008EF21E /* AppDelegate.swift in Sources */,
+				18C612CC2B2C9349008EF21E /* SceneDelegate.swift in Sources */,
+				18719C152B3C2A87005A1832 /* SortPickerViewDelegate.swift in Sources */,
+				18C70DAF2B44F2C5006C84AD /* RecentPetCollectionViewCell.swift in Sources */,
+				18EEB3F62B3D263200EB0F9C /* AddPetViewController.swift in Sources */,
+				18C70DAD2B44F280006C84AD /* RecentPetDelegate.swift in Sources */,
+				18E34D3A2B4902E20054F19F /* MedicalReportViewController.swift in Sources */,
+				18C70DB52B455421006C84AD /* ChatModel.swift in Sources */,
+				18C063CD2B3AC1B300D2729A /* VerifyAPI.swift in Sources */,
+				18C70DB72B455447006C84AD /* HistoryModel.swift in Sources */,
+				18C613252B2D49D3008EF21E /* Core.swift in Sources */,
+				18C70DAB2B44F1DA006C84AD /* HistoryTableViewCell.swift in Sources */,
+				18719C1F2B3C3935005A1832 /* PetCollectionViewCell.swift in Sources */,
+				18C70DB12B451602006C84AD /* SettingViewController.swift in Sources */,
+				18C70DA72B44EDEB006C84AD /* AppInfoViewController.swift in Sources */,
+				18C70DBB2B455545006C84AD /* ChatFrameViewController.swift in Sources */,
+				18C612E52B2C9C89008EF21E /* LoadingViewController.swift in Sources */,
+				18E34D402B4966F40054F19F /* MedicalReportCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18C612D82B2C934B008EF21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C612D92B2C934B008EF21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C612DB2B2C934B008EF21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FA56E720638FD4D87851F0 /* Pods-HolaLove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HolaLove/HolaLove.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97ZYCS5A6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolaLove/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HolaLove;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minh.fpt.HolaLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C612DC2B2C934B008EF21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0DDCE8DEFBD0C1D33A99DB /* Pods-HolaLove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HolaLove/HolaLove.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97ZYCS5A6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolaLove/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HolaLove;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minh.fpt.HolaLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C612C12B2C9349008EF21E /* Build configuration list for PBXProject "HolaLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C612D82B2C934B008EF21E /* Debug */,
+				18C612D92B2C934B008EF21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C612DA2B2C934B008EF21E /* Build configuration list for PBXNativeTarget "HolaLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C612DB2B2C934B008EF21E /* Debug */,
+				18C612DC2B2C934B008EF21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18C612FF2B2CA565008EF21E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		18C613012B2CA565008EF21E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		18C613032B2CA565008EF21E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		18C613052B2CA565008EF21E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		18C613072B2CA565008EF21E /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		18C613092B2CA565008EF21E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C612FE2B2CA565008EF21E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18C612BE2B2C9349008EF21E /* Project object */;
+}

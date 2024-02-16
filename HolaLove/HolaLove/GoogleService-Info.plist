@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>145496475541-tkgcbosg34aslgjpdu8rho6g3sju9hja.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.145496475541-tkgcbosg34aslgjpdu8rho6g3sju9hja</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKOo4U5UG4XTBlLdzGVAcSkkjgEVVLMgk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>145496475541</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>minh.fpt.HolaLove</string>
+	<key>PROJECT_ID</key>
+	<string>holalove-39a33</string>
+	<key>STORAGE_BUCKET</key>
+	<string>holalove-39a33.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:145496475541:ios:cec4a5903b4c9c914e589c</string>
+</dict>
+</plist>

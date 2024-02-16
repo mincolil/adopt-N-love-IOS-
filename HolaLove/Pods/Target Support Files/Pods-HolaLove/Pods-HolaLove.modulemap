@@ -1,0 +1,6 @@
+framework module Pods_HolaLove {
+  umbrella header "Pods-HolaLove-umbrella.h"
+
+  export *
+  module * { export * }
+}

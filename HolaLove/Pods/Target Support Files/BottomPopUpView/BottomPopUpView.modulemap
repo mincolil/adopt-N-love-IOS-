@@ -1,0 +1,6 @@
+framework module BottomPopUpView {
+  umbrella header "BottomPopUpView-umbrella.h"
+
+  export *
+  module * { export * }
+}
